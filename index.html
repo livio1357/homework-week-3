@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gem Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="jumbotron" style="background-color: lightblue;">
+	<h1 class="text-center">Gem Game</h1>
+</div>
+
+<button class="btn btn-primary" id="button">New Game</button>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<h1 class="win">Wins: <span class="wins" id="numWins"></span></h1>
+			<h1 class="losses" > Losses: <span class="losses" id="numLosses"></span></h1>
+
+
+
+		</div>
+
+		<div class="col-md-6">
+			<h1 class="targetscore">Targetscore: <span class="target" id="targetNum"></span></h1>
+			<h1 class="score" > Your Score: <span class="score" id="ScoreNum"></span></h1>
+
+	</div>
+
+
+<div class="row">
+	<div class="col-md-3 gem">
+	<img class="img-responsive" id="blue" src="blue.png">
+		
+	</div>
+	<div class="col-md-3 gem">
+		<img class="img-responsive" id="green" src="green.png">
+
+		
+
+	</div>
+	<div class="col-md-3 gem">
+		<img class="img-responsive" id="gold" src="gold.png">
+
+		
+
+
+	</div>
+	<div class="col-md-3 gem">
+		<img class="img-responsive" id="lightblue" src="lightblue.png">
+
+		
+	</div>
+	
+
+
+
+</div>
+
+
+
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="game.js"></script>
+	
+</body>
+</html>
